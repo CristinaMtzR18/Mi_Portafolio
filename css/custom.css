@@ -1,5 +1,5 @@
 	/*** General ***/
-@import url(http://fonts.googleapis.com/css?family=Lato:300,400,700);
+@import url(https://fonts.googleapis.com/css?family=Lato:300,400,700);
 
 html { height: 100%; }
 
@@ -261,10 +261,12 @@ nav {
 	text-align: left;
 	box-shadow: 0 10px 0 rgba(0,0,0,0.02);
 	text-shadow: 0 0 2px #fff;
+	font-family: 'Lobster Two', cursive;
 }
 
 .no-js .content h2 {
 	padding: 40px 1% 20px;
+	font-family: 'Lobster Two', cursive;
 }
 
 .content p {
