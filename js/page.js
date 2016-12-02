@@ -1,3 +1,14 @@
+var texto = 'Cristina Martinez';
+var i=0;
+//Escribir texto
+  function escribirName(){
+  	$('#name').append(texto[i]);
+  	if(i<texto.length){
+   		i++;
+   		setTimeout(escribirName,300);
+   	}
+  };
+  escribirName();
 var Page = (function() {
 
 	var $container = $( '#containerBook' ),
