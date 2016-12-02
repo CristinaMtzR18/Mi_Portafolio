@@ -31,11 +31,4 @@ $(document).ready(function(){
   bar.text.style.fontSize = '1rem';
   bar.text.style.fontWeight ='bold';
 
-  //Grfica de corazon
-  var bar = new ProgressBar.Path('#heart-path', {
-  easing: 'easeInOut',
-  duration: 25000
-  });
-  bar.set(0);
-  bar.animate(1.0);
 });
