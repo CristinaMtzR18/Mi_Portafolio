@@ -30,7 +30,9 @@
 					<li><a href="#item5"></a></li>
 					<li><a href="#item6">Contacto</a></li>
 				</ul>
-				<h5 class="center subtitulo">Front-End Web Developer</h5>
+				<hr>
+				<h5 class="center text-white">Front-End Web Developer</h5>
+				<hr>
 				<img src="img/logoQuetzul.png" alt="logoQuetzul" width="100" height="100" id="s00">
 			</div>
 			<!-- Comienza libro entero -->
@@ -67,11 +69,11 @@
 						<div class="content">
 							<div class="scroller">
 								<div class="row">
-                                    <div class="col s12 l6">
+                                    <div class="col s12 l6 center">
                                         <h2>Habilidades</h2>
                                         <!-- Mis habilidades técnicas -->
                                         <h5 class="center">Técnicas. Herramientas de Desarrollo Web</h5>
-			                            <div id="progresoIntermedio" class="mt3 center">INTERMEDIO
+			                            <div id="progresoIntermedio" class="mt3">
 			                            </div>
 			                            <div class="herramientasWeb center">
 			                                <img src="img/skills/html-5.png" class="imgSkill">
@@ -79,7 +81,7 @@
 			                                <img src="img/skills/Javascript.png" class="imgSkill">
 			                                <img src="img/skills/bootstrap.png" class="imgSkill">
 			                            </div>
-			                            <div id="progresoBasico" class="center">BASICO
+			                            <div id="progresoBasico" class="mt3">
 			                            </div>
 			                            <div class="herramientasWeb center">
 			                                <img src="img/skills/jquery.png" class="imgSkill">
@@ -91,9 +93,14 @@
 					                        <!-- Mis habilidades blandas -->
 					                        <h5 class="center">Sociales. Personalidad y Conducta</h5>
 					                        <div class="col s6 l16 center">
-					                            <img src="img/loader4.gif" width="150" height="150" alt="load">
+					                            <div id="myContainer" class="center">
+                                					<svg xmlns="http://www.w3.org/2000/svg" version="1.1" x="0px" y="0px" viewBox="0 0 100 100">
+                                    					<path fill-opacity="0" stroke-width="1" stroke="#bbb" d="M81.495,13.923c-11.368-5.261-26.234-0.311-31.489,11.032C44.74,13.612,29.879,8.657,18.511,13.923  C6.402,19.539,0.613,33.883,10.175,50.804c6.792,12.04,18.826,21.111,39.831,37.379c20.993-16.268,33.033-25.344,39.819-37.379  C99.387,33.883,93.598,19.539,81.495,13.923z"/>
+                                    					<path id="heart-path" fill-opacity="0" stroke-width="3" stroke="#ED6A5A" d="M81.495,13.923c-11.368-5.261-26.234-0.311-31.489,11.032C44.74,13.612,29.879,8.657,18.511,13.923  C6.402,19.539,0.613,33.883,10.175,50.804c6.792,12.04,18.826,21.111,39.831,37.379c20.993-16.268,33.033-25.344,39.819-37.379  C99.387,33.883,93.598,19.539,81.495,13.923z"/>
+                                					</svg>
+                            					</div>
 					                        </div>
-					                        <div class="col s6 l6">    
+					                        <div class="col s6 l6 mt4">    
 					                            <p><i class="fa fa-clock-o" aria-hidden="true"></i> Puntualidad</p>
 					                            <p><i class="fa fa-star" aria-hidden="true"></i> Compromiso</p>
 					                            <p><i class="fa fa-users" aria-hidden="true"></i> Trabajo en equipo</p>
@@ -179,17 +186,19 @@
 							<div class="scroller">
 								<div class="row">
                                     <div class="col s12 l6">
-                                        <h2>Contacto</h2>
                                         <!-- Forma de contacto -->
-                                        <div class="redes center">
-                                        	<a href="mailto:cris.mtz.r18@gmail.com"><i class="fa fa-envelope" aria-hidden="true"></i></a>
-                                            <p><i class="fa fa-mobile fa-2x" aria-hidden="true"></i>	55 3963 8945</p>
-                                            <h5 clas="center">Conoce más</h5>
+										<!-- Nota -->
+							            <div class="note">
+							                <h2 class="center subtitulo">Contacto</h2>
+							                <a href="mailto:cris.mtz.r18@gmail.com"><i class="fa fa-envelope fa-3x" aria-hidden="true"></i></a>
+											<p><i class="fa fa-mobile fa-2x" aria-hidden="true"></i> 55 3963 8945</p>
+							              	<h5 clas="center">Conoce más</h5>
                                             <a href="https://github.com/CristinaMtzR18" target="_blank" class="myA"><i class="fa fa-github fa-4x"></i></a>
-                                        </div> 
+							            </div>	
                                 	</div>
                                 	<div class="col s12 l6 center">
                                         <img src="img/logoL.png" alt="logoLaboratoria" id="logoL">
+                                        <p id="dedicatoria">Para quienes siempre estan conmigo <i class="fa fa-paw" aria-hidden="true"></i></p>
                             			<p class="ml5">2016 <span>&copy Copyright </span>Laboratoria</p>
                                         </div> 
                                 	</div>
@@ -210,6 +219,8 @@
 		<script type="text/javascript" src="js/jquery.jscrollpane.min.js"></script>
 		<script type="text/javascript" src="js/jquerypp.custom.js"></script>
 		<script type="text/javascript" src="js/jquery.bookblock.js"></script>
+		<script type="text/javascript" src="js/progressbar.js"></script>
+		<script type="text/javascript" src="js/skills.js"></script>
 		<script type="text/javascript" src="js/page.js"></script>
 		<script>
 			$(function() {
